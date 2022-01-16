@@ -92,10 +92,11 @@
             </button>
             <!-- 'style' added to align image with navbar. FIX THIS -->
             <a class="navbar-brand" href="https://db.apache.org/">
-                <img style="margin-top: -12px;" alt="Brand" width="405.5" height="45.5" src="<%= (attr :_basedir) %>images/db-logo-white.png"/>
+                <!-- img style="margin-top: -12px;" alt="Brand" width="405.5" height="45.5" src="<%= (attr :_basedir) %>images/db-logo-blue.png"/ -->
+                <img style="margin-top: -12px;" alt="Brand" width="250" height="45.5" src="<%= (attr :_basedir) %>images/db-logo-white.png"/>
             </a>
             <!-- TODO Any way to abstract the version from Maven? -->
-            <a class="navbar-brand" href="<%= (attr :_basedir) %>index.html">Apache DB</a>
+            <!-- a class="navbar-brand" href="<%= (attr :_basedir) %>index.html">Apache DB</a -->
         </div>
         <!-- Navbar that will collapse on mobile screens -->
         <div id="navbar" class="navbar-collapse collapse">
@@ -111,11 +112,10 @@
                   <% end %>
                   <ul class="dropdown-menu">
                         <li><a href="<%= (attr :_basedir) %>index.html">About / News</a></li>
-                        <li><a href="<%= (attr :_basedir) %>licenses">License</a></li>
+                        <li><a href="http://www.apache.org/licenses/LICENSE-2.0">License</a></li>
                         <li><a href="<%= (attr :_basedir) %>mail.html">Mailing Lists</a></li>
                         <li><a href="<%= (attr :_basedir) %>whoweare.html">Who We Are</a></li>
                         <li><a href="<%= (attr :_basedir) %>source-repos.html">Source Repositories</a></li>
-                        <li><a href="<%= (attr :_basedir) %>sitemap.html">Sitemap</a></li>
                         <li><a href="<%= (attr :_basedir) %>license.html">License</a></li>
                     </ul>
                 </li>
@@ -135,7 +135,7 @@
                         <li role="separator" class="divider"></li>
                         <li>Retired Subprojects</li>
                         <li><a href="https://db.apache.org/ddlutils/">DdlUtils</a></li>
-                        <li><a href="https://db.apache.org/Obj.html">ObJectRelationalBridge</a></li>
+                        <li><a href="http://attic.apache.org/projects/ojb.html">ObJectRelationalBridge</a></li>
                     </ul>
                 </li>
 

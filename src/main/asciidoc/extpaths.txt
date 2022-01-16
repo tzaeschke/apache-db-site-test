@@ -1,6 +1,0 @@
-# File format: lines starting with # or space chars are ignored.
-ddlutils
-derby
-jdo
-ojb
-torque
