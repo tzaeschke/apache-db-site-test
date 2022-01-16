@@ -92,7 +92,7 @@
             </button>
             <!-- 'style' added to align image with navbar. FIX THIS -->
             <a class="navbar-brand" href="https://db.apache.org/">
-                <img style="margin-top: -12px;" alt="Brand" width="405.5" height="45.5" src="<%= (attr :_basedir) %>images/db-logo.png"/>
+                <img style="margin-top: -12px;" alt="Brand" width="405.5" height="45.5" src="<%= (attr :_basedir) %>images/db-logo-white.png"/>
             </a>
             <!-- TODO Any way to abstract the version from Maven? -->
             <a class="navbar-brand" href="<%= (attr :_basedir) %>index.html">Apache DB</a>
@@ -148,18 +148,11 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Foundation<span class="caret"></span></a>
                   <% end %>
                     <ul class="dropdown-menu">
-                        <li><a href="https://www.apache.org">Types of Classes</a></li>
-                        <li><a href="<%= (attr :_basedir) %>field_types.html">Types of Fields</a></li>
-                        <li role="separator" class="divider"></li>
-                        <!-- <li class="dropdown-header">Metadata</li> -->
-                        <li><a href="<%= (attr :_basedir) %>metadata.html">MetaData</a></li>
-                        <li><a href="<%= (attr :_basedir) %>annotations.html">Annotations</a></li>
-                        <li><a href="<%= (attr :_basedir) %>jdo_dtd.html">jdo DTD/XSD</a></li>
-                        <li><a href="<%= (attr :_basedir) %>orm_dtd.html">orm DTD/XSD</a></li>
-                        <li><a href="<%= (attr :_basedir) %>jdoquery_dtd.html">jdoquery DTD/XSD</a></li>
-                        <li><a href="<%= (attr :_basedir) %>jdoconfig_dtd.html">jdoconfig DTD/XSD</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="<%= (attr :_basedir) %>enhancement.html">Bytecode Enhancement</a></li>
+                        <li><a href="https://www.apache.org">Apache</a></li>
+                        <li><a href="https://www.apache.org/foundation/thanks.html">Thanks</a></li>
+                        <li><a href="https://www.apache.org/foundation/sponsorship.html">Donate</a></li>
+                        <li><a href="https://www.apache.org/security">Security</a></li>
+                        <li><a href="https://www.apache.org/foundation/how-it-works.html">How It Works</a></li>
                     </ul>
                 </li>
 
@@ -211,22 +204,8 @@
 <% if is_footer? then %>
   <footer style="color:#fff; background-color:#222222; padding: 5px;">
   <div class="container">
-      <div class="row" style="margin-top:25px">
-          <div class="col-sm" align="center">
-      <a href="https://www.facebook.com/JavaDataObjects" class="externalLink" title="Facebook">Facebook</a>
-              |
-                          <a href="https://twitter.com/JavaDataObjects" class="externalLink" title="Twitter">Twitter</a>
-              |
-                          <a href="http://wiki.apache.org/jdo" class="externalLink" title="Wiki">Wiki</a>
-              |
-                          <a href="http://issues.apache.org/jira/secure/BrowseProject.jspa?id=10630" class="externalLink" title="Issue Tracker">Issue Tracker</a>
-              |
-                          <a href="mail-lists.html" title="Mailing Lists">Mailing Lists</a>
-              |
-                          <a href="api31/apidocs/index.html" title="Latest Javadocs">Latest Javadocs</a>
-          </div>
-      </div>
-      <p class="text-center" style="margin-top:16px">&copy; 2005-2021 Apache Software Foundation. All Rights Reserved.</p>
+      <p class="text-center" style="margin-top:16px">Copyright &copy; 2005-2022 Apache Software Foundation, Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" title="Apache License">Apache License, Version 2.0.</a></p>
+      <p class="text-center" style="margin-top:16px">Apache, Apache DB, Apache Derby, Apache Torque, Apache JDO, Apache DDLUtils, the Derby hat logo, the Apache JDO logo, and the Apache feather logo are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners.</p>
   </div>
   </footer>
 <% end %>

@@ -24,13 +24,13 @@ expected of a DB subproject.
 
 **Meritocracy**.
 Before submitting a proposal, be sure to study the guidelines that
-[govern DB subprojects](guidelines.html). These guidelines explain our system
+link:guidelines.html[govern DB subprojects]. These guidelines explain our system
 of Meritocracy, which is the core of the DB Project. If the product
 developers do not wish to adopt this system, then they should **not** donate
 their code to the Project, and should look elsewhere for hosting.
 
 **Community**.
-DB is a Project of the [Apache Software Foundation](http://www.apache.org/).
+DB is a Project of the link:http://www.apache.org/[Apache Software Foundation].
 A prime purpose of the ASF is to ensure that the Apache projects continue to
 exist beyond the participation of individual volunteers. Accordingly, a prime
 criteria required of any new subproject is that it already enjoys -- or has a
@@ -52,7 +52,7 @@ helpful for there to more than three developers. It is **very** helpful for
 at least one of the developers making the proposal to already be active in a
 DB subproject or other open source initiative.
 
-At DB, the core developers of a product (the [Committers](roles.html)) manage
+At DB, the core developers of a product (the link:roles.html[Committers]) manage
 the codebases and make the day-to-day development decisions. We are only
 interested in products that can guided by their own development communities.
 DB provides the infrastructure, and some essential guidelines, but the
@@ -62,7 +62,7 @@ product.
 **Alignment with existing Apache subprojects**.
 Products that are already used by existing subprojects make attractive
 candidates, since bringing such a codebase into the Apache fold tends to
-benefit both communities. Products with dependancies on existing Apache
+benefit both communities. Products with dependencies on existing Apache
 products are also attractive for the same reason.
 
 **Scope**.
@@ -98,7 +98,7 @@ The alleged quality of a product is not the prime criteria. To be accepted,
 we must believe that a product will attract volunteers to extend and maintain
 it over the long term. A product like this, arriving with no volunteer
 developers or open source community, does not further
-[DB's mission](index.html#DB Mission), and would not be accepted.
+link:index.html#DB_Mission[DB's mission], and would not be accepted.
 
 We generally recommend that an orphaned product start with an independent
 host, and consider making a proposal after it has started to build a
@@ -146,7 +146,7 @@ technology, or volunteers in common will have trouble attracting a strong
 community.
 
 **A fascination with the Apache brand**. The
-[Apache Software License](http://www.apache.org/licenses/) is quite liberal
+http://www.apache.org/licenses/[Apache Software License] is quite liberal
 and allows for the code to used in commercial products. This can induce
 people to donate a commercial codebase to the ASF, allow it developed as open
 source for a time, and then convert it back to commercial use. While this

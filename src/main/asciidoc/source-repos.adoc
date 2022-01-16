@@ -12,7 +12,7 @@
 
 === DdlUtils Source Repository Info
 
-[Web View](http://svn.apache.org/viewvc/db/ddlutils/trunk/)
+link:http://svn.apache.org/viewvc/db/ddlutils/trunk/[Web View]
 
 Anonymous: scm:svn:http://svn.apache.org/repos/asf/db/ddlutils/trunk
 
@@ -21,7 +21,7 @@ Developer: scm:svn:https://svn.apache.org/repos/asf/db/ddlutils/trunk
 
 === Derby Source Repository Info
 
-[Web View](http://svn.apache.org/viewvc/db/derby/code/trunk/)
+link:http://svn.apache.org/viewvc/db/derby/code/trunk/[Web View]
 
 Anonymous: scm:svn:http://svn.apache.org/repos/asf/db/derby/code/trunk
 
@@ -30,14 +30,14 @@ Developer: scm:svn:https://svn.apache.org/repos/asf/db/derby/code/trunk
 
 === Java Data Objects (JDO) Source Repository Info
 
-Apache GitBox: https://gitbox.apache.org/repos/asf/db-jdo.git
+Apache's GitBox: https://gitbox.apache.org/repos/asf/db-jdo.git
 
-GitHub: https://github.com/apache/db-jdo.git
+Apache on GitHub: https://github.com/apache/db-jdo.git
 
 
 === ObJectRelationalBridge Source Repository Info
 
-[Web View](http://svn.apache.org/viewvc/db/ojb/trunk/)
+link:http://svn.apache.org/viewvc/db/ojb/trunk/[Web View]
 
 Anonymous: scm:svn:http://svn.apache.org/repos/asf/db/ojb/trunk
 
@@ -46,7 +46,7 @@ Developer: scm:svn:https://svn.apache.org/repos/asf/db/ojb/trunk
 
 === Torque Source Repository Info
 
-[Web View](http://svn.apache.org/viewvc/db/torque/)
+link:http://svn.apache.org/viewvc/db/torque/[Web View]
 
 Anonymous: scm:svn:http://svn.apache.org/repos/asf/db/torque/
 
